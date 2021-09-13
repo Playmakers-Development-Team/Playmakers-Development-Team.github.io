@@ -1,0 +1,45 @@
+h1 {
+	color: var(--pdt-blue);
+	font-size: 85px;
+}
+
+#heading {
+	display: flex;
+	margin: 8px;
+	justify-content: space-between;
+}
+
+#logos img {
+	max-width: 87px;
+	margin: 0 13px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#showcase {
+	background-color: var(--pdt-darker-black);
+}
+
+#details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+}
+
+.link img {
+	border: 3px solid white;
+	max-width: 60px;
+	min-height: 60px;
+}
+
+.link p {
+	border-bottom: 1px solid var(--pdt-blue);
+}
+
+nav {
+	display: flex;
+}
