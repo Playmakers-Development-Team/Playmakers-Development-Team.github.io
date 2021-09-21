@@ -26,3 +26,9 @@ body {
 	--pdt-darker-black: #151515;
 	/* White, Black */
 }
+
+a:link,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
