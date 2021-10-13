@@ -5,19 +5,21 @@ h1 {
 
 body {
 	background-color: var(--pdt-darker-black);
+	font-family: "Gothic A1", sans-serif;
 }
 
 #about {
 	background: var(--pdt-black);
-	padding: 8px;
 	display: grid;
-	grid-template-rows: 1fr 1fr;
+	padding: 16px 8px;
+	grid-template-rows: 1fr min-content;
 	grid-template-columns: 1fr;
 	justify-items: center;
 }
 
 #heading {
 	display: flex;
+	margin-bottom: 20px;
 }
 
 #logos {
@@ -31,9 +33,12 @@ body {
 	margin-right: 2rem;
 }
 
+/* @TODO: media query for phones on heading to flex-direction: column for the about section */
+
 #details {
 	display: flex;
 	align-items: center;
+	max-height: 100px;
 }
 
 #details > p {
@@ -56,6 +61,14 @@ nav > div:first-child {
 	align-items: center;
 }
 
+.link a {
+	transition: background 0.5s ease;
+}
+
+.link a:hover {
+	background: var(--pdt-red);
+}
+
 .link img {
 	border: 3px solid white;
 	max-width: 60px;
@@ -72,9 +85,71 @@ nav > div:first-child {
 */
 
 #showcase {
-	min-height: 70vh;
+	font-family: "Neuton", serif;
+	font-size: 1.1rem;
+	margin-top: 1rem;
 }
 
 #showcase h2 {
 	color: var(--pdt-red);
+	font-size: 100px;
+	text-align: center;
+}
+
+#cta {
+	text-align: center;
+}
+
+#cta > * {
+	margin: 16px 0;
+}
+
+#cta .subtitle {
+	color: var(--pdt-red);
+	font-style: italic;
+	font-size: 1.5rem;
+}
+
+#cta .game-description {
+	width: 60%;
+	margin: 16px auto;
+}
+
+#cta a {
+	display: inline-block;
+}
+
+#cta button {
+	background: none;
+	border: 3px solid var(--pdt-red);
+	border-radius: 5px;
+	color: white;
+	font-family: inherit;
+	padding: 0.75rem;
+	font-size: 0.95rem;
+	display: block;
+	margin: 0 auto;
+
+	transition: all 0.5s ease;
+}
+
+#cta button:hover {
+	background: var(--pdt-red);
+	border-radius: 0;
+	cursor: pointer;
+}
+
+#cta .year,
+#cta .genre {
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-container > :first-child {
+	margin-right: 16px;
 }

@@ -1,0 +1,153 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: black;
+}
+
+#banner {
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+	max-height: 40vh;
+}
+
+.grid {
+	display: grid;
+	grid-template-rows: 1fr min-content;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	width: max-content;
+	margin: 16px auto;
+	column-gap: 3rem;
+}
+
+.grid > .text-container {
+	grid-column-start: 1;
+	justify-self: end;
+}
+
+.text-container p {
+	margin-top: 1.5rem;
+	width: 50ch;
+}
+
+.grid > a {
+	grid-row-start: 2;
+}
+
+.grid > a > button {
+	color: var(--pdt-red);
+	background: #090909;
+	border-style: none;
+	border-radius: 5px;
+	padding: 1.25rem;
+	font-size: large;
+	filter: drop-shadow(8px 5px 2px #a4d045);
+	cursor: pointer;
+	transition: color 0.8s;
+}
+
+.grid > a > button:hover {
+	color: white;
+}
+
+.grid > img {
+	grid-column-start: 2;
+	grid-row: 1 / span 2;
+	max-width: 100%;
+	max-height: 100%;
+	width: 75%;
+	height: auto;
+	justify-self: start;
+}
+
+#icon-point {
+	width: 4rem;
+	height: auto;
+	display: block;
+	margin: 2rem auto;
+	filter: drop-shadow(2px 2px 2px green);
+	animation-name: icon-point-hover;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	position: relative;
+	transition: all 0.8s ease-in-out;
+	cursor: pointer;
+}
+
+#icon-point:hover {
+	transform: scale(0.9);
+	background: var(--pdt-red);
+	border-radius: 5px;
+}
+
+@keyframes icon-point-hover {
+	0% {
+		bottom: 10px;
+	}
+
+	50% {
+		bottom: 0px;
+	}
+
+	100% {
+		bottom: 10px;
+	}
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	width: min-content;
+	border-radius: 3px;
+	padding: 1rem;
+	margin: 4rem auto;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+nav > a {
+	display: block;
+	margin: 8px 10rem;
+	transition: all 0.5s ease-in-out;
+}
+
+nav > a:hover {
+	background: white;
+	color: red;
+}
+
+.gradient-animation {
+	background: linear-gradient(247deg, #69ce25, #1d1e1d, #d52a38, #686ae1);
+	background-size: 800% 800%;
+
+	-webkit-animation: Gradient 30s ease infinite;
+	-moz-animation: Gradient 30s ease infinite;
+	animation: Gradient 30s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 77%;
+	}
+	50% {
+		background-position: 100% 24%;
+	}
+	100% {
+		background-position: 0% 77%;
+	}
+}
+
+.fit {
+	width: fit-content;
+}
+
+.text-section {
+	width: 80%;
+	margin: 0 auto;
+}
