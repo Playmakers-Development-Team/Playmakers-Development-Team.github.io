@@ -149,5 +149,21 @@ nav > a:hover {
 
 .text-section {
 	width: 80%;
-	margin: 0 auto;
+	margin: 2rem auto;
+}
+
+/* SOCIALS */
+#socials-container {
+	margin-top: 8px;
+	display: flex;
+}
+
+#socials-container img {
+	width: 4rem;
+	height: auto;
+	transition: border 0.8s ease;
+}
+
+#socials-container img:hover {
+	border: 2px solid var(--pdt-red);
 }

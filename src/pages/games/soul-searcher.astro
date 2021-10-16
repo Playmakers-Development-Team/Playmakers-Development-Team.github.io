@@ -1,3 +1,7 @@
+---
+	import team_data from "../../data/soul-searcher-team.json";
+	import Credits from "../../components/Credits.svelte";
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,6 +50,23 @@
 		
 		<section id="socials" class="text-section">
 			<h2>Socials</h2>
+			<div id="socials-container">
+				<a href="https://discord.gg/CMD2YPG">
+					<img src="/assets/icons/discord.svg" alt="Discord Logo">
+				</a>
+				<a href="https://www.facebook.com/Playmakers-Dev-Team-155950606557133">
+					<img src="/assets/icons/facebook.svg" alt="Facebook Logo">
+				</a>
+				<a href="https://twitter.com/UTS_PDT">
+					<img src="/assets/icons/twitter.svg" alt="Twitter Logo">
+				</a>
+				<a href="https://www.tiktok.com/@playmakersdevteam">
+					<img src="/assets/icons/tiktok.svg" alt="TikTok Logo">
+				</a>
+				<a href="https://www.youtube.com/channel/UCLWR9n_BmFD0qNBgIoIyHog/featured">
+					<img src="/assets/icons/youtube.svg" alt="YouTube Logo">
+				</a>
+			</div>
 		</section>
 
 		<section id="devlogs" class="text-section">
@@ -56,6 +77,7 @@
 
 		<section id="team" class="text-section">
 			<h2>Our Wonderful Team</h2>
+			<Credits data={team_data} />
 		</section>
 		
 	</main>

@@ -1,0 +1,82 @@
+{
+	"Supervised by": [
+		{
+			"name": "Dr. William L. Raffe",
+			"link": "https://william-raffe.com"
+		}
+	],
+	"Project Management": [
+		{
+			"name": "Sam Huang",
+			"link": "https://urfriendxd.itch.io"
+		}
+	],
+	"Programming": [
+		{
+			"name": "Eddie Chapman",
+			"link": "https://edwardochapman.wixsite.com/portfolio"
+		},
+		{
+			"name": "Jordan Hamlin",
+			"link": "https://jtama.itch.io/"
+		},
+		{
+			"name": "Sam Huang",
+			"link": "https://urfriendxd.itch.io"
+		},
+		{
+			"name": "Kyle Hammer",
+			"link": "https://devsledge.itch.io/"
+		}
+	],
+	"Art": [
+		{
+			"name": "Roy Fu",
+			"link": "https://marksinthemargin.com"
+		},
+		{
+			"name": "Christa Zhang"
+		},
+		{
+			"name": "Nick Komin"
+		},
+		{
+			"name": "Beatrice Robinson",
+			"link": "https://twitter.com/wintercherry_cp"
+		}
+	],
+	"Technical Art": [
+		{
+			"name": "Jordan Hamlin",
+			"link": "https://jtama.itch.io/"
+		}
+	],
+	"Marketing": [
+		{
+			"name": "Ethan Scavia",
+			"link": "http://ethanscavia.com"
+		}
+	],
+	"Audio": [
+		{
+			"name": "Beatrice Robinson",
+			"link": "https://twitter.com/wintercherry_cp"
+		},
+		{
+			"name": "Jake Amante",
+			"link": "https://twitter.com/jteeaudio"
+		}
+	],
+	"Design": [
+		{
+			"name": "Roy Fu",
+			"link": "https://marksinthemargin.com"
+		}
+	],
+	"UI": [
+		{
+			"name": "Jordan Hamlin",
+			"link": "https://jtama.itch.io/"
+		}
+	]
+}
