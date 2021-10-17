@@ -1,9 +1,23 @@
 html {
 	scroll-behavior: smooth;
+	scroll-padding-top: 5rem;
 }
 
 body {
 	background: black;
+	transition: background 2s ease-in-out;
+}
+
+main {
+	backdrop-filter: blur(90px);
+}
+
+.bg-gradient {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.527),
+		rgba(0, 128, 0, 0.527),
+		rgba(128, 0, 128, 0.521)
+	) !important;
 }
 
 #banner {
@@ -19,14 +33,14 @@ body {
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	justify-items: center;
-	width: max-content;
+	width: 100%;
 	margin: 16px auto;
 	column-gap: 3rem;
 }
 
 .grid > .text-container {
 	grid-column-start: 1;
-	justify-self: end;
+	justify-self: center;
 }
 
 .text-container p {
@@ -103,23 +117,25 @@ nav {
 	display: flex;
 	justify-content: center;
 	position: sticky;
-	width: min-content;
+	width: 100%;
 	border-radius: 3px;
 	padding: 1rem;
 	margin: 4rem auto;
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
+	top: 0;
+	color: black;
+	background: white;
 }
 
 nav > a {
 	display: block;
-	margin: 8px 10rem;
+	margin: 8px 2rem;
 	transition: all 0.5s ease-in-out;
 }
 
 nav > a:hover {
-	background: white;
-	color: red;
+	color: var(--pdt-red);
 }
 
 .gradient-animation {
@@ -152,6 +168,10 @@ nav > a:hover {
 	margin: 2rem auto;
 }
 
+.text-section > * {
+	margin: 1rem auto;
+}
+
 /* SOCIALS */
 #socials-container {
 	margin-top: 8px;
@@ -166,4 +186,16 @@ nav > a:hover {
 
 #socials-container img:hover {
 	border: 2px solid var(--pdt-red);
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 1200px) {
+	.grid {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.grid > * {
+		margin: 1rem auto;
+	}
 }

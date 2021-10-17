@@ -14,8 +14,12 @@
 {#each teams as team}
 	<h3>{team.team_name}</h3>
 	<p>
-	{#each team.members as member}
+	{#each team.members as member, index}
+		{#if index !== team.members.length - 1}
 		<a href={member.link} target="_blank">{member.name}</a>, &nbsp;
+		{:else}
+		<a href={member.link} target="_blank">{member.name}</a>
+		{/if}
 	{/each}
 	</p>
 {/each}
