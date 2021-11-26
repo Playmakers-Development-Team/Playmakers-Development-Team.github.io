@@ -53,15 +53,17 @@ main {
 }
 
 .grid > a > button {
-	color: var(--pdt-red);
+	color: #8935cb;
 	background: #090909;
 	border-style: none;
 	border-radius: 5px;
 	padding: 1.25rem;
+	width: 15rem;
 	font-size: large;
 	filter: drop-shadow(8px 5px 2px #a4d045);
 	cursor: pointer;
 	transition: color 0.8s;
+	font-weight: bold;
 }
 
 .grid > a > button:hover {
