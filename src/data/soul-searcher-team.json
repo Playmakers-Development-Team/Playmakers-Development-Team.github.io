@@ -27,6 +27,24 @@
 		{
 			"name": "Kyle Hammer",
 			"link": "https://devsledge.itch.io/"
+		},
+		{
+			"name": "Francisco Castro"
+		},
+		{
+			"name": "Jack Coggins"
+		},
+		{
+			"name": "Agid Kaharuba"
+		},
+		{
+			"name": "Habibullah Saleem"
+		},
+		{
+			"name": "Hugo Adamietz"
+		},
+		{
+			"name": "Lachlan Garrity"
 		}
 	],
 	"Art": [
@@ -43,18 +61,53 @@
 		{
 			"name": "Beatrice Robinson",
 			"link": "https://twitter.com/wintercherry_cp"
+		},
+		{
+			"name": "Eddie Chapman",
+			"link": "https://edwardochapman.wixsite.com/portfolio"
+		},
+		{
+			"name": "Jordan Hamlin",
+			"link": "https://jtama.itch.io/"
+		},
+		{
+			"name": "Vivian Li"
+		},
+		{
+			"name": "Chiara Mattingly"
+		},
+		{
+			"name": "Shayla Nguyen"
 		}
 	],
 	"Technical Art": [
 		{
 			"name": "Jordan Hamlin",
 			"link": "https://jtama.itch.io/"
+		},
+		{
+			"name": "Jaiden Chicote"
 		}
 	],
 	"Marketing": [
 		{
 			"name": "Ethan Scavia",
 			"link": "http://ethanscavia.com"
+		},
+		{
+			"name": "Habibullah Saleem"
+		},
+		{
+			"name": "Roy Fu",
+			"link": "https://marksinthemargin.com"
+		},
+		{
+			"name": "Jake Amante",
+			"link": "https://twitter.com/jteeaudio"
+		},
+		{
+			"name": "Eddie Chapman",
+			"link": "https://edwardochapman.wixsite.com/portfolio"
 		}
 	],
 	"Audio": [
@@ -65,18 +118,49 @@
 		{
 			"name": "Jake Amante",
 			"link": "https://twitter.com/jteeaudio"
+		},
+		{
+			"name": "Leon Manjyoume"
+		},
+		{
+			"name": "Ethan Tay"
+		},
+		{
+			"name": "Francisco Castro"
 		}
 	],
 	"Design": [
 		{
 			"name": "Roy Fu",
 			"link": "https://marksinthemargin.com"
+		},
+		{
+			"name": "Agid Kaharuba"
 		}
 	],
 	"UI": [
 		{
 			"name": "Jordan Hamlin",
 			"link": "https://jtama.itch.io/"
+		},
+		{
+			"name": "Roy Fu",
+			"link": "https://marksinthemargin.com"
+		},
+		{
+			"name": "Vivian Li"
+		}
+	],
+	"QA": [
+		{
+			"name": "Agid Kaharuba"
+		},
+		{
+			"name": "Jack Coggins"
+		},
+		{
+			"name": "Sam Huang",
+			"link": "https://urfriendxd.itch.io"
 		}
 	]
 }
