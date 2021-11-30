@@ -1,0 +1,30 @@
+---
+import Credits from "../components/Credits.svelte"
+import data_soul_searcher from "../data/soul-searcher-team.json"
+import MainNav from "../components/MainNav.svelte"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Playmakers Dev Team</title>
+	<link rel="stylesheet" href="/style/global.css">
+	<link rel="stylesheet" href="/style/people.css">
+</head>
+<body>
+	<main>
+		<h1>People</h1>
+		<section id="soul-searcher" class="people-item">
+			<h2>
+				<a href="/games/soul-searcher">Soul Searcher
+					<span class="people-item-year">2021</span>
+				</a>
+			</h2>
+			<Credits data={data_soul_searcher} />
+		</section>
+	</main>
+	
+</body>
+</html>

@@ -2,8 +2,8 @@
 	<a href="/">Home</a>
 	<!--
 	<a href="/games">Games</a>
-	<a href="/people">People</a>
 	-->
+	<a href="/people">People</a>
 </nav>
 
 <style>
@@ -13,11 +13,12 @@
 		top: 8px;
 		width: fit-content;
 		display: flex;
+		flex-direction: column;
 		padding: 0;
 		margin: 0;
 		opacity: 0.8;
 	}
-	
+
 	#MainNav a {
 		padding: 0.5rem;
 		margin: 0;
