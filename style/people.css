@@ -1,0 +1,11 @@
+main {
+	margin: 1.25rem;
+}
+
+.people-item > * {
+	margin: 0.5rem;
+}
+
+.people-item-year {
+	color: var(--pdt-red);
+}
